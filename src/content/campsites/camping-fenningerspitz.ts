@@ -115,7 +115,7 @@ const campingFenningerspitz: CampsiteConfig = {
       "Rund um den Platz warten Wander- und Radwege, vier Badeseen und weite Blicke über Hügel und Wälder — ein paar Eindrücke aus der Region.",
     tag: "Salzburger Seenland",
     images: [
-      { src: `${IMG}/seenland-blick.webp`, alt: "Weiter Blick über die Hügel des Salzburger Seenlands" },
+      { src: `${IMG}/wanderweg.webp`, alt: "Wanderweg durch herbstlichen Wald im Salzburger Seenland nahe Henndorf" },
     ],
   },
 
