@@ -73,11 +73,6 @@ const campingFenningerspitz: CampsiteConfig = {
       "Vom Stellplatz an den Strand, vom Zelt bis zum Cube am Wasser — hier findest du Platz zum Ankommen, mit Strom, Sanitäranlagen und allem, was ein entspannter Campingtag braucht.",
     features: [
       {
-        title: "Zelt-Platz",
-        text: "Ebene Zeltplätze (bis 3×3 m), inklusive Strom und Warmwasser-Dusche — mitten im Grünen zwischen Wiese und Wald.",
-        image: { src: `${IMG}/zelt-platz.webp`, alt: "Zelt zwischen Bäumen am Camping Fenningerspitz" },
-      },
-      {
         title: "Cube am Strand",
         text: "Schlafen mit Seeblick: der Cube steht direkt am Strand und ist für zwei Personen gemacht — Camping ganz ohne eigene Ausrüstung.",
         image: { src: `${IMG}/cube-am-strand.webp`, alt: "Cube am Strand mit Blick auf den Wallersee" },
@@ -114,9 +109,7 @@ const campingFenningerspitz: CampsiteConfig = {
     intro:
       "Rund um den Platz warten Wander- und Radwege, vier Badeseen und weite Blicke über Hügel und Wälder — ein paar Eindrücke aus der Region.",
     tag: "Salzburger Seenland",
-    images: [
-      { src: `${IMG}/wanderweg.webp`, alt: "Wanderweg durch herbstlichen Wald im Salzburger Seenland nahe Henndorf" },
-    ],
+    images: [],
   },
 
   booking: {
@@ -126,13 +119,13 @@ const campingFenningerspitz: CampsiteConfig = {
       "Wähle Platz-Kategorie und Zeitraum — Familie Brandstätter meldet sich persönlich mit deiner Verfügbarkeit. Reservierungen ab zwei Nächten.",
     pricesArePlaceholder: false,
     priceNote:
-      "ab-Preise Vorsaison (Frühjahr/Herbst) pro Nacht inkl. Strom & Warmwasser-Dusche — zzgl. € 8 je Erwachsener, Ortstaxe (€ 1,50) & Umweltabgabe (€ 2)",
+      "Stellplatzgebühr Frühjahr/Herbst pro Nacht inkl. Strom & Warmwasser-Dusche, zzgl. € 8 je Erwachsener, Ortstaxe (€ 1,50) & Umweltabgabe (€ 2)",
     highlight: { title: "Direkt am Strand", text: "Vom See-Platz sind es nur wenige Schritte bis ins Wasser." },
     categories: [
-      { id: "classic", label: "Classic-Platz", perNight: 25, perExtraGuest: 8 },
-      { id: "comfort", label: "Comfort-Platz", perNight: 27, perExtraGuest: 8 },
-      { id: "seeplatz", label: "See-Platz", perNight: 30, perExtraGuest: 8 },
-      { id: "zelt", label: "Zelt-Platz", perNight: 24, perExtraGuest: 8 },
+      { id: "classic", label: "Classic-Platz", perNight: 9, perExtraGuest: 8 },
+      { id: "comfort", label: "Comfort-Platz", perNight: 11, perExtraGuest: 8 },
+      { id: "seeplatz", label: "See-Platz", perNight: 14, perExtraGuest: 8 },
+      { id: "zelt", label: "Zelt-Platz", perNight: 8, perExtraGuest: 8 },
       { id: "cube", label: "Cube am Strand", perNight: 50 },
     ],
   },
