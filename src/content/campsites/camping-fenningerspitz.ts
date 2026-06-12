@@ -1,8 +1,14 @@
 import type { CampsiteConfig } from "../types";
 
+/**
+ * Strandcamping Fenningerspitz — Henndorf am Wallersee, Salzburger Seenland.
+ * Inhalte zu 100 % aus der eigenen Quelle (raw/digest) abgeleitet. Bildbestand dünn:
+ * nur 5 platzeigene Fotos waren brauchbar (siehe REPORT.md), der Rest war generisches
+ * Stockmaterial bzw. ein Webcam-Standbild → bewusst schlanke, ehrliche Sektions-Belegung.
+ */
 const IMG = "/campsites/camping-fenningerspitz";
 
-const campingFenningerspitz: CampsiteConfig = {
+const fenningerspitz: CampsiteConfig = {
   name: "Strandcamping Fenningerspitz",
   shortName: "Fenningerspitz",
   slug: "camping-fenningerspitz",
@@ -10,53 +16,55 @@ const campingFenningerspitz: CampsiteConfig = {
   region: "Salzburger Land",
   brandKind: "Strandcamping",
   see: "Wallersee",
-  regionLong: "Salzburger Seenland · Wallersee · Österreich",
+  regionLong: "Salzburger Seenland · Salzburger Land · Österreich",
 
   heroVariant: "center",
 
-  claim: "Camping mit eigenem Strand am Wallersee",
-  claimEmphasis: "eigenem Strand",
+  claim: "Dein eigener Strand am Wallersee",
+  claimEmphasis: "eigener Strand",
+  emailDetail: "euer Familienbetrieb in dritter Generation",
   intro:
-    "Familiärer Strandcampingplatz direkt am Wallersee: großzügige, parzellierte Stellplätze zwischen Wiese, Wald und Wasser — und ein eigener Badestrand, an dem dein Urlaub fünf Schritte hinter dem Vorzelt beginnt.",
+    "Familiär geführter Strandcamping direkt am Wallersee — mit eigenem Badestrand, großzügigen Stellplätzen im Grünen und vier Badeseen mit Trinkwasserqualität rundum. Hier verbringst du deinen Sommer am Wasser.",
 
-  logo: { src: `${IMG}/logo.png`, alt: "Strandcamping Fenningerspitz Logo" },
+  logo: { src: `${IMG}/logo-2a42699eb1.png`, alt: "Logo Strandcamping Fenningerspitz" },
 
   statement: {
-    text: "Bei uns gehört der Strand zum Stellplatz — der Wallersee beginnt gleich hinter deinem Vorzelt.",
-    emphasis: "gehört der Strand",
+    text: "Bei uns liegt der Wallersee nicht in der Nähe — er beginnt an deinem Stellplatz.",
+    emphasis: "an deinem Stellplatz",
   },
 
   pillars: [
     {
-      title: "Eigener Strand am Wallersee",
-      text: "Der hauseigene Badestrand liegt unmittelbar am Platz — der Wallersee zählt zu den vier Seen mit Trinkwasserqualität im Salzburger Seenland.",
-      image: { src: `${IMG}/strand-baden.webp`, alt: "Kinder springen vom Steg in den Wallersee am Strandcamping Fenningerspitz" },
+      title: "Cube am Strand",
+      text: "Schlafen mit Seeblick: Der Cube direkt am Ufer verbindet Glamping-Komfort mit dem Wallersee vor der Tür.",
+      image: { src: `${IMG}/gallery-d367c280b9.webp`, alt: "Cube am Strand direkt am Wallersee" },
     },
     {
-      title: "Großzügige Stellplätze",
-      text: "Rund 200 parzellierte Plätze auf weitläufigem Wiesengelände, viele mit leistungsfähigem Stromanschluss (16A) und Wasser.",
-      image: { src: `${IMG}/stellplatz.webp`, alt: "Wohnmobil-Stellplatz im Grünen am Camping Fenningerspitz" },
+      title: "In dritter Generation",
+      text: "1974 von Johann und Elisabeth Brandstätter gegründet, heute von Familie Brandstätter geführt — gelebte Gastfreundschaft über drei Generationen.",
+      image: { src: `${IMG}/kids-6935f219cf.webp`, alt: "Familie Brandstätter, Gastgeber am Strandcamping Fenningerspitz" },
     },
     {
-      title: "Seit 1974 in Familienhand",
-      text: "Gegründet von Johann und Elisabeth Brandstätter, heute in dritter Generation von Josef und Jaqueline geführt — Sohn Tobias hilft schon mit.",
-      image: { src: `${IMG}/familie-brandstaetter.webp`, alt: "Familie Brandstätter, Gastgeber am Strandcamping Fenningerspitz" },
+      title: "Platz im Grünen",
+      text: "Rund 200 parzellierte Stellplätze auf weitläufigem Areal, jeder mit kräftiger 16-A-Stromversorgung — E-Bikes zum Erkunden gibt es direkt am Platz.",
+      image: { src: `${IMG}/activity-da012229a2.webp`, alt: "Stellplatz im Grünen mit E-Bikes am Camping Fenningerspitz" },
     },
   ],
 
   usps: [
-    "Eigener Strand am Wallersee",
-    "200 großzügige Stellplätze",
-    "Strom (16A) & Wasser",
+    "Eigener Badestrand",
+    "Rund 200 Stellplätze",
+    "Stromversorgung 16 A",
+    "E-Bike-Verleih",
     "Hunde willkommen",
-    "E-Bike- & Autoverleih",
+    "Spielplatz für Kinder",
   ],
 
   trust: {
-    heading: "Darauf ist am Fenningerspitz Verlass",
-    headingEmphasis: "Fenningerspitz",
+    heading: "Darauf ist am Wallersee Verlass",
+    headingEmphasis: "Wallersee",
     intro:
-      "Seit 1974 empfängt dich hier dieselbe Familie — drei Generationen, die wissen, was Campingurlaub am See ausmacht: kurze Wege ans Wasser, faire Preise und ein Platz, an dem Kinder noch den ganzen Tag draußen sind.",
+      "Seit 1974 dieselbe Familie, der eigene Strand am größten See des Salzburger Seenlandes und eine ruhige, naturnahe Lage — bei uns zählt, dass du vom ersten Tag an wirklich ankommst.",
   },
 
   awards: [],
@@ -64,69 +72,56 @@ const campingFenningerspitz: CampsiteConfig = {
   saison: { von: "April", bis: "Oktober" },
 
   hero: {
-    aerial: { src: `${IMG}/hero-luftbild.webp`, alt: "Luftbild: Strandcamping Fenningerspitz direkt am Wallersee" },
+    aerial: { src: `${IMG}/gallery-73cd4b193b.webp`, alt: "Luftaufnahme vom Strandcamping Fenningerspitz am Wallersee" },
   },
 
+  breather: {
+    image: { src: `${IMG}/gallery-ab8ba06aaf.webp`, alt: "Der Campingplatz Fenningerspitz aus der Vogelperspektive" },
+    line: "Vier Badeseen, ein Platz — mittendrin im Salzburger Seenland.",
+  },
+
+  // Bildarm: keine weiteren platzeigenen Fotos für ein 6er-Raster übrig → Sektion blendet sich aus.
   camping: {
-    heading: "Campingplatz am Wallersee",
-    intro:
-      "Vom Stellplatz an den Strand, vom Zelt bis zum Cube am Wasser — hier findest du Platz zum Ankommen, mit Strom, Sanitäranlagen und allem, was ein entspannter Campingtag braucht.",
-    features: [
-      {
-        title: "Cube am Strand",
-        text: "Schlafen mit Seeblick: der Cube steht direkt am Strand und ist für zwei Personen gemacht — Camping ganz ohne eigene Ausrüstung.",
-        image: { src: `${IMG}/cube-am-strand.webp`, alt: "Cube am Strand mit Blick auf den Wallersee" },
-      },
-      {
-        title: "Gepflegte Anlage & Sanitäranlagen",
-        text: "Zwei getrennte Sanitäranlagen mit je fünf Duschen und zehn Waschtischen, Waschmaschine und Trockner sowie ein Kinderspielplatz — alles auf dem 50.000 m² großen Gelände direkt am Wallersee.",
-        image: { src: `${IMG}/anlage.webp`, alt: "Luftbild der Campinganlage Strandcamping Fenningerspitz" },
-      },
-    ],
+    heading: "Alles für deinen Campingtag",
+    intro: "Großzügige Stellplätze, moderne Sanitäranlagen und der See direkt vor der Tür.",
+    features: [],
   },
 
   anreise: {
     heading: "Dein Weg an den Wallersee",
     modes: [
-      {
-        title: "Mit dem Auto",
-        text: "Über die A1 Westautobahn bis zur Abfahrt Richtung Wallersee/Henndorf, dann den Schildern nach Fenning folgen — Salzburg liegt rund 20 Fahrminuten entfernt.",
-      },
-      {
-        title: "Mit der Bahn",
-        text: "Bahnhof Salzburg Hauptbahnhof, von dort weiter mit Regionalbus oder Bahn ins Seenland nach Henndorf.",
-      },
-      {
-        title: "Mit dem Flugzeug",
-        text: "Flughafen Salzburg W. A. Mozart, von dort sind es etwa 25 Fahrminuten bis zum Platz.",
-      },
+      { title: "Mit dem Auto", text: "Über die A1 Westautobahn, Abfahrt Wallersee, dann der Beschilderung nach Henndorf folgen — der Platz liegt direkt am Seeufer." },
+      { title: "Mit der Bahn", text: "Nächster Bahnhof ist Seekirchen am Wallersee an der Westbahn; von dort sind es nur wenige Minuten an den See." },
+      { title: "Mit dem Flugzeug", text: "Der Flughafen Salzburg liegt rund 25 Fahrminuten entfernt — ideal für die unkomplizierte Anreise." },
     ],
   },
 
+  // Bildarm: keine vier ungenutzten platzeigenen Fotos für das Bento → Galerie blendet sich aus.
   galerie: {
-    heading: "Unterwegs im Salzburger Seenland",
-    headingEmphasis: "Seenland",
-    intro:
-      "Rund um den Platz warten Wander- und Radwege, vier Badeseen und weite Blicke über Hügel und Wälder — ein paar Eindrücke aus der Region.",
-    tag: "Salzburger Seenland",
+    heading: "Sommer am Wallersee",
+    headingEmphasis: "Sommer",
+    intro: "Eindrücke vom Platz und vom See.",
+    tag: "April bis Oktober",
     images: [],
   },
 
   booking: {
-    heading: "Sichere dir deinen Platz am Strand",
-    headingEmphasis: "am Strand",
-    intro:
-      "Wähle Platz-Kategorie und Zeitraum — Familie Brandstätter meldet sich persönlich mit deiner Verfügbarkeit. Reservierungen ab zwei Nächten.",
+    heading: "Sichere dir deinen Platz am Wallersee",
+    headingEmphasis: "am Wallersee",
+    intro: "Wähle Zeitraum, Platz und Personen — Familie Brandstätter meldet sich persönlich mit deiner Verfügbarkeit.",
     pricesArePlaceholder: false,
     priceNote:
-      "Stellplatzgebühr Frühjahr/Herbst pro Nacht inkl. Strom & Warmwasser-Dusche, zzgl. € 8 je Erwachsener, Ortstaxe (€ 1,50) & Umweltabgabe (€ 2)",
-    highlight: { title: "Direkt am Strand", text: "Vom See-Platz sind es nur wenige Schritte bis ins Wasser." },
+      "Richtwert Nebensaison · Stellplatz inkl. 2 Erwachsene, Strom & Warmwasser-Dusche · zzgl. Ortstaxe (€ 1,50) & Mobilitätsabgabe (€ 0,50) je Erwachsener/Nacht, Umweltabgabe € 2",
+    highlight: {
+      title: "Direkt am Strand",
+      text: "Vom Stellplatz sind es nur wenige Schritte ins Wasser des Wallersees.",
+    },
     categories: [
-      { id: "classic", label: "Classic-Platz", perNight: 9, perExtraGuest: 8 },
-      { id: "comfort", label: "Comfort-Platz", perNight: 11, perExtraGuest: 8 },
-      { id: "seeplatz", label: "See-Platz", perNight: 14, perExtraGuest: 8 },
-      { id: "zelt", label: "Zelt-Platz", perNight: 8, perExtraGuest: 8 },
-      { id: "cube", label: "Cube am Strand", perNight: 50 },
+      { id: "zelt", label: "Zeltplatz am Strand", perNight: 28.5, perExtraGuest: 9.5 },
+      { id: "classic", label: "Classic-Platz", perNight: 31.5, perExtraGuest: 9.5 },
+      { id: "comfort", label: "Comfort-Platz", perNight: 33.5, perExtraGuest: 9.5 },
+      { id: "see", label: "See-Platz", perNight: 36.5, perExtraGuest: 9.5 },
+      { id: "cube", label: "Cube am Strand", perNight: 65 },
     ],
   },
 
@@ -135,20 +130,16 @@ const campingFenningerspitz: CampsiteConfig = {
     telHref: "tel:+43621420944",
     mail: "info@camping-fenningerspitz.at",
     adresse: "Fenning 120 · 5302 Henndorf am Wallersee · Salzburg",
-    coords: { lat: 47.899526, lng: 13.167358 },
+    coords: { lat: 47.8984707, lng: 13.1672206 },
   },
 
-  languages: ["DE"],
+  languages: ["DE", "EN"],
 
   nav: [
-    { label: "Camping", href: "#camping", children: [
-      { label: "Zelt-Platz", href: "#camping" },
-      { label: "Cube am Strand", href: "#camping" },
-    ]},
-    { label: "Region", href: "#galerie" },
+    { label: "Strandcamping", href: "#top" },
     { label: "Preise", href: "#booking" },
-    { label: "Anfahrt", href: "#anreise" },
+    { label: "Anreise & Lage", href: "#anreise" },
   ],
 };
 
-export default campingFenningerspitz;
+export default fenningerspitz;
