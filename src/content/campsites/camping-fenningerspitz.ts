@@ -135,7 +135,7 @@ const campingFenningerspitz: CampsiteConfig = {
     telHref: "tel:+43621420944",
     mail: "info@camping-fenningerspitz.at",
     adresse: "Fenning 120 · 5302 Henndorf am Wallersee · Salzburg",
-    coords: { lat: 47.898409, lng: 13.16729 },
+    coords: { lat: 47.899526, lng: 13.167358 },
   },
 
   languages: ["DE"],
