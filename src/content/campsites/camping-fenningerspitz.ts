@@ -41,12 +41,12 @@ const fenningerspitz: CampsiteConfig = {
     },
     {
       title: "In dritter Generation",
-      text: "1974 von Johann und Elisabeth Brandstätter gegründet, heute von Familie Brandstätter geführt — gelebte Gastfreundschaft über drei Generationen.",
+      text: "Seit 1974 von Familie Brandstätter geführt — gelebte Gastfreundschaft über drei Generationen.",
       image: { src: `${IMG}/kids-6935f219cf.webp`, alt: "Familie Brandstätter, Gastgeber am Strandcamping Fenningerspitz" },
     },
     {
       title: "Platz im Grünen",
-      text: "Rund 200 parzellierte Stellplätze auf weitläufigem Areal, jeder mit kräftiger 16-A-Stromversorgung — E-Bikes zum Erkunden gibt es direkt am Platz.",
+      text: "Rund 200 Stellplätze mit 16-A-Strom auf weitläufigem Areal — und E-Bike-Verleih direkt am Platz.",
       image: { src: `${IMG}/activity-da012229a2.webp`, alt: "Stellplatz im Grünen mit E-Bikes am Camping Fenningerspitz" },
     },
   ],
